@@ -1,6 +1,9 @@
 # BKSandbox
 Sandbox for inconsequential, experimental, collaborative projects
 
+Please note that everybody invited to this project has their own 'Branch' at this point.
+
+
 [9:06:08 AM] Timothy Wensel: That game we talked about. Write a console app. start with output of ">....". The player should have to press the right arrow key to move the > one character to the right
 
 [9:06:13 AM] Timothy Wensel: Once you get to the end, program over
