@@ -30,7 +30,26 @@ namespace ConsoleApplication1
 
         public void MoveRight()
         {
-            throw new NotImplementedException();
+            // ">...."      0
+            // ".>..."      1
+            if (_lineState != EndState)
+            {
+                
+                string NewString = "";
+                var MarkerAt = _lineState.IndexOf(">");
+                MarkerAt++;
+                for (int i = 0; i < MarkerAt; i++)
+                {
+                    NewString += ".";
+                }
+                NewString += ">";
+                var strNewEnding = new string('.', 4 - MarkerAt);
+                NewString += strNewEnding;
+            }
+            else
+            {
+                throw new ArgumentException("Out of bounds!");
+            }
         }
 
         public bool CheckGameOver()
