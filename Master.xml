@@ -8,4 +8,12 @@
 		<ConsolidateFlag>True</ConsolidateFlag>
 		<Relationships></Relationships>
 	</Statute>
+	<Statute id="66666">
+		<ChapterNumber>A-1</ChapterNumber>
+		<ShortTitle>Access to Information Act</ShortTitle>
+		<ReversedShortTitle>Ace, Access to Information</ReversedShortTitle>
+		<LastConsolidationDate>20170704</LastConsolidationDate>
+		<ConsolidateFlag>True</ConsolidateFlag>
+		<Relationships></Relationships>
+	</Statute>	
 </MasterList>
